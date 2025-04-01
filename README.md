@@ -1,17 +1,17 @@
-# EC 607, Spring 2024
+# EC 607, Spring 2025
 
-Welcome to **Economics 607: Econometrics III** (Spring 2024) at the University of Oregon, <br>taught by [Ed Rubin](https://edrub.in) and [Connor Mulholland](https://cas.uoregon.edu/directory/profiles/all/cmulhol2).
+Welcome to **Economics 607: Econometrics III** (Spring 2025) at the University of Oregon, <br>taught by [Ed Rubin](https://edrub.in) and [Connor Mulholland](https://cas.uoregon.edu/directory/profiles/all/cmulhol2).
 
 ## Schedule
 
-**Lecture** Tuesdays and Thursdays, 10:00am–11:20am, [Lillis Hall 185](https://classrooms.uoregon.edu/lillis-185/)
+**Lecture** Tuesdays and Thursdays, 10:00a–11:20a, [Lillis Hall 185](https://classrooms.uoregon.edu/lillis-185/)
 
-**Lab** Friday 12:00pm–12:50pm, [Peterson Hall 102](https://classrooms.uoregon.edu/peterson-102/)
+**Lab** Friday 12:00p–12:50p, [Peterson Hall 102](https://classrooms.uoregon.edu/peterson-102/)
 
 **Office hours**
 
-- **[Ed Rubin](https://edrub.in)**: Tuesdays 4pm–5pm and by appointment, [PLC 530](https://map.uoregon.edu/bf87c0570) ([edwardr@uoregon.edu](mailto:edwardr@uoregon.edu))
-- **[Connor Mulholland](https://cas.uoregon.edu/directory/profiles/all/cmulhol2)**: Tuedays and Wednesdays 12pm–1pm, 506 PLC ([cmulhol2@uoregon.edu](mailto:cmulhol2@uoregon.edu))
+- **[Ed Rubin](https://edrub.in)**: Tuesdays and Thursdays, 9a–9:50a and by appointment, [PLC 530](https://map.uoregon.edu/bf87c0570) ([edwardr@uoregon.edu](mailto:edwardr@uoregon.edu))
+- **[Connor Mulholland](https://cas.uoregon.edu/directory/profiles/all/cmulhol2)**: Thursdays 1p–2p, 506 PLC ([cmulhol2@uoregon.edu](mailto:cmulhol2@uoregon.edu))
 
 ## Books
 
@@ -339,7 +339,7 @@ More information [here](project1/step2.md).
 
 *Why?* In the course of the PhD, we want to teach you how to learn. We will not provide you with everything you need to know to be able to do research on any topic. But hopefully we provide you with a foundation and the ability to learn new things. Also: You need to learn how to communicate both in writing and in person. 
 
-**Due:** All material (including slides) is due June 4, 2024. Presentations will be during class on June 5, 2024.
+**Due:** All material (including slides) is due June 4, 2025. Presentations will be during class on June 5, 2025.
 
 [See here for more information and example topics.](project2)
 
@@ -355,8 +355,8 @@ More information [here](project1/step2.md).
 
 The final exam has two parts:
 
-- In class: 8:00am–10:00am on Wednesday, June 11th (2025).
-- Take-home exam: Responses due by 11:59pm Pacific on Friday, June 13th, 2025.
+- In class: 8:00a–10:00a on Wednesday, June 11th (2025).
+- Take-home exam: Responses due by 11:59p Pacific on Friday, June 13th, 2025.
 
 We do not have a midterm exam.
 
