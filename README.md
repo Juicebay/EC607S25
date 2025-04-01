@@ -56,14 +56,14 @@ The content of the lectures mainly follows *MHE* and [Michael Anderson](https://
 
 That said, if you're starting out now, I'd go with [Quarto](https://quarto.org).
 
-**[Lecture 01: Research + R + You = 💖](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec01/notes.html)**
+**[Lecture 01: Research + R + You = 💖](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec01/notes.html)**
 
 1. An introduction to empirical research via applied econometrics.
 1. R: Light introduction—objects, functions, and help.
 
-**Note formats:** [.html](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec01/notes.html) |
-[.pdf](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec01/notes.pdf) |
-[.rmd](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec01/notes.rmd)
+**Note formats:** [.html](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec01/notes.html) |
+[.pdf](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec01/notes.pdf) |
+[.rmd](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec01/notes.rmd)
 
  **Readings:** MHE preface + MHE chapter 1
 
