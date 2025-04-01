@@ -364,7 +364,7 @@ We do not have a midterm exam.
 
 - [2024 in-class exam](final/final-past/final-inclass-2024.pdf)
 - [2024 take-home exam](https://raw.githack.com/edrubin/EC607S25/master/final/final-past/final-home-2024.html)
-- [2023 in-class exam](final/exam-inclass-2023.pdf)
+- [2023 in-class exam](final/final-past/final-inclass-2023.pdf)
 - [2023 take-home exam](https://raw.githack.com/edrubin/EC607S23/master/final/final-home/final-home.html)
 - [2022 take-home exam](https://raw.githack.com/edrubin/EC607S22/master/final/exam/exam.html)
 - [2020 exam](https://raw.githack.com/edrubin/EC607S20/master/final/final.pdf)
