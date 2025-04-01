@@ -6,7 +6,7 @@ Welcome to **Economics 607: Econometrics III** (Spring 2024) at the University o
 
 **Lecture** Tuesdays and Thursdays, 10:00am–11:20am, [Lillis Hall 185](https://classrooms.uoregon.edu/lillis-185/)
 
-**[Lab](https://github.com/ojetton/Econometrics_Lab_Spring_24)** Friday 12:00pm–12:50pm, [Peterson Hall 102](https://classrooms.uoregon.edu/peterson-102/)
+**Lab** Friday 12:00pm–12:50pm, [Peterson Hall 102](https://classrooms.uoregon.edu/peterson-102/)
 
 **Office hours**
 
