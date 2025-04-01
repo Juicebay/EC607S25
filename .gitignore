@@ -1,0 +1,34 @@
+# General extensions to ignore
+*.RData
+*.rdb
+*.rdx
+*.DS_Store
+.Rproj.user
+.Rhistory
+.Ruserdata
+.Rapp.history
+*.here
+*.Rproj
+# Notes cache
+notes/*/slides_cache/*
+
+# Temporary holds: Notes
+# notes-lecture/lec01*
+notes-lecture/lec02*
+notes-lecture/lec03*
+notes-lecture/lec04*
+notes-lecture/lec05*
+notes-lecture/lec06*
+notes-lecture/lec07*
+notes-lecture/lec08*
+notes-lecture/lec09*
+notes-lecture/lec10*
+notes-lecture/lec11*
+notes-lecture/lec12*
+notes-lecture/lec13*
+
+# Temporary holds: Problem sets
+final/final-class*
+final/final-home*
+problem-sets/00[0-9]*
+problem-sets/NOTES
