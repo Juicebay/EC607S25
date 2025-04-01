@@ -1,6 +1,6 @@
 # EC 607, Spring 2024
 
-Welcome to **Economics 607: Econometrics III** (Spring 2024) at the University of Oregon (taught by [Ed Rubin](https://edrub.in) and [Connor Mulholland](https://cas.uoregon.edu/directory/profiles/all/cmulhol2)).
+Welcome to **Economics 607: Econometrics III** (Spring 2024) at the University of Oregon, <br>taught by [Ed Rubin](https://edrub.in) and [Connor Mulholland](https://cas.uoregon.edu/directory/profiles/all/cmulhol2)).
 
 ## Schedule
 
