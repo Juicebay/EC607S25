@@ -11,7 +11,7 @@ Welcome to **Economics 607: Econometrics III** (Spring 2024) at the University o
 **Office hours**
 
 - **[Ed Rubin](https://edrub.in)**: Tuesdays 4pm–5pm and by appointment, [PLC 530](https://map.uoregon.edu/bf87c0570) ([edwardr@uoregon.edu](mailto:edwardr@uoregon.edu))
-- **[Connor Mulholland](https://cas.uoregon.edu/directory/profiles/all/cmulhol2)** Tuedays and Wednesdays 12pm–1pm, 506 PLC ([cmulhol2@uoregon.edu](mailto:cmulhol2@uoregon.edu))
+- **[Connor Mulholland](https://cas.uoregon.edu/directory/profiles/all/cmulhol2)**: Tuedays and Wednesdays 12pm–1pm, 506 PLC ([cmulhol2@uoregon.edu](mailto:cmulhol2@uoregon.edu))
 
 ## Books
 
