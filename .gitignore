@@ -13,19 +13,8 @@
 notes/*/slides_cache/*
 
 # Temporary holds: Notes
-# notes-lecture/lec01*
-notes-lecture/lec02*
-notes-lecture/lec03*
-notes-lecture/lec04*
-notes-lecture/lec05*
-notes-lecture/lec06*
-notes-lecture/lec07*
-notes-lecture/lec08*
-notes-lecture/lec09*
-notes-lecture/lec10*
-notes-lecture/lec11*
-notes-lecture/lec12*
-notes-lecture/lec13*
+notes-lecture/lec0[3-9]*
+notes-lecture/lec1[0-9]*
 
 # Temporary holds: Problem sets
 final/final-class*

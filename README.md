@@ -67,14 +67,14 @@ That said, if you're starting out now, I'd go with [Quarto](https://quarto.org).
 
  **Readings:** MHE preface + MHE chapter 1
 
-**[Lecture 02: The Experimental Ideal](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec02/notes.html)**
+**[Lecture 02: The Experimental Ideal](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec02/notes.html)**
 
 1. Neyman potential outcomes framework (Rubin causal model)
 1. Selection bias and experimental variation in treatment
 
-**Note formats:** [.html](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec02/notes.html) |
-[.pdf](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec02/notes.pdf) |
-[.rmd](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec02/notes.rmd)
+**Note formats:** [.html](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec02/notes.html) |
+[.pdf](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec02/notes.pdf) |
+[.rmd](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec02/notes.rmd)
 
  **Readings:** MHE chapter 2
 
