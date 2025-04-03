@@ -6,11 +6,11 @@ Welcome to **Economics 607: Econometrics III** (Spring 2025) at the University o
 
 **Lecture** Tuesdays and Thursdays, 10:00a–11:20a, [Lillis Hall 185](https://classrooms.uoregon.edu/lillis-185/)
 
-**Lab** Friday 12:00p–12:50p, [Peterson Hall 102](https://classrooms.uoregon.edu/peterson-102/)
+[**Lab**](https://github.com/cmulholland217/Metrics_Lab_Spring2025) Friday 12:00p–12:50p, [Peterson Hall 102](https://classrooms.uoregon.edu/peterson-102/)
 
 **Office hours**
 
-- **[Ed Rubin](https://edrub.in)**: Tuesdays and Thursdays, 9a–9:50a and by appointment, [PLC 530](https://map.uoregon.edu/bf87c0570) ([edwardr@uoregon.edu](mailto:edwardr@uoregon.edu))
+- **[Ed Rubin](https://edrub.in)**: Mondays, 1p–2p and by appointment, [PLC 530](https://map.uoregon.edu/bf87c0570) ([edwardr@uoregon.edu](mailto:edwardr@uoregon.edu))
 - **[Connor Mulholland](https://cas.uoregon.edu/directory/profiles/all/cmulhol2)**: Thursdays 1p–2p, 506 PLC ([cmulhol2@uoregon.edu](mailto:cmulhol2@uoregon.edu))
 
 ## Books
