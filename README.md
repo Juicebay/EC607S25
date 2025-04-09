@@ -286,7 +286,7 @@ Connor Mulholland will walk you through R and applications of the course content
 
 Problem sets combining econometric theory and R.
 
-*Coming soon...*
+[Problem set 001](https://raw.githack.com/edrubin/EC607S25/master/problem-sets/001/prompts.html)
 
 ## Project
 

@@ -1,0 +1,160 @@
+---
+title: "Problem set 1"
+subtitle: "EC607"
+# author: "Edward Rubin"
+editor:
+  render-on-save: true
+format:
+  html:
+    toc: false
+    number-sections: false
+    code-line-numbers: true
+    embed-resources: true
+    self-contained: true
+    theme:
+    - cosmo
+    - ed.scss
+---
+
+## Part 0: Take a minute
+
+**0.1** (5 points) Take 15 minutes to think about (1) your research interests and (2) how you are doing. No screens. No paper. No nothing. Just sit somewhere (ideally not PLC) quietly and think.
+
+*To submit:* Where and when did you complete this task?
+  
+## Part 1: Fun with functions
+
+**1.1** (15 points) Write a function that uses OLS to estimate the **coefficients** of a linear regression model.
+
+The function should
+
+- accept two arguments: `y` and `X` (both matrices)
+- output estimated coefficients as a matrix
+
+Your function should only use matrix operations (e.g., `%*%`) and basic summary statistics (e.g., `sum()`, `nrow()`). Do not use more complex functions (like `lm()`).
+
+*Hint:* Remember that you can create a column matrix of ones using `matrix(1, nrow = n, ncol = 1)` (where `n` is the number of rows you want). You can also use `cbind()` to combine matrices by columns (`cbind`) or rows (`rbind`). There's an example of `cbind()` below in **1.2**.
+
+*Hint:* The function named `function()` allows you to write a function. For example, 
+
+```{r}
+#| eval: false
+
+# A very fancy function
+so_fun = function(a,b) {
+  a + b
+}
+```
+
+defines a function called `so_fun` that takes two arguments, `a` and `b`, and returns their sum. You can call the function by typing `so_fun(1, 2)`.
+
+**1.2** (5 points) Test your function using the following data, comparing it to the results of `lm()`.
+
+```{r}
+#| eval: false
+
+# Define the parameters
+beta = matrix(c(3, 3, 3), nrow = 3, ncol = 1)
+# Define the X matrix
+X = matrix(data = rnorm(200), nrow = 100, ncol = 2)
+# Define the disurbance
+u = rnorm(100)
+# Create a column of ones
+ones = matrix(1, nrow = 100, ncol = 1)
+# Define the y matrix
+y = cbind(ones, X) %*% beta + u
+# Run lm
+test_lm = lm(y ~ X)
+summary(test_lm)
+# TODO Now run your function
+```
+
+## Part 2: A simulation
+
+Let's push your function a little harder... in a simulation!
+
+**2.1** (10 points) When coding a simulation, it usually helps to start by coding up a single iteration (after defining the population DGP).
+
+Start by drawing 100 observations from the following population model and then applying your function to estimate the coefficients.
+
+$$
+y_i = \beta_0 + \beta_1 x_{1i} + \beta_2 x_{2i} + \beta_3 x_{3i} + \epsilon_i
+$$
+
+where
+
+- $\beta_0 = 0$, $\beta_1 = 1$, $\beta_2 = 2$, and $\beta_3 = 3$
+- $x_{1i} \sim N(0, 1)$
+- $x_{2i} \sim N(0, 1)$
+- $x_{3i} = u_i + w_i$
+- $\epsilon_i = v_i + w_i$
+- and $w_i \sim N(0, 1)$, $u_i \sim N(0, 1)$, and $v_i \sim N(0, 1)$
+  
+I'll get you started. 
+
+```{r}
+#| eval: false
+
+# Load the `tidyverse` (using `pacman`)
+library(pacman)
+p_load(tidyverse)
+# Set a seed
+set.seed(12)
+# Set the number of observations desired
+n = 100
+# Generate the population (starting with the "unobserved" disturbances)
+sample_df = tibble(
+  id = 1:n,
+  u = rnorm(n),
+  v = rnorm(n),
+  w = rnorm(n),
+  epsilon = v + w,
+  x1 = rnorm(n),
+  x2 = rnorm(n),
+  x3 = u + w,
+  y = 0 + 1 * x1 + 2 * x2 + 3 * x3 + epsilon
+)
+# TODO Now run your function
+```
+
+*Note:* Using a `tibble` (from the `tidyverse`) here is helpful because it allows you to reference columns that you generated in the same step, *e.g.*, `tibble(a = 1, b = a + 2)`. If you were using `data.frame`, you couldn't do it all in one step—you'd need to use multiple steps and/or something like `mutate()`.
+
+**2.2** (5 points) Now it's time for a simulation. For the simulation, you basically need to run the code you wrote in **2.1** above a large number of times (e.g., 10,000 times).
+
+Here are some steps to get to the full simulation:
+
+1. Copy lines 6–20 above (plus the lines you added to run your regression function).
+1. Update those lines (that define a single iteration of the simulation) to define a function with a single argument `it` for the iteration number.
+1. At the end of this iteration function, output the estimated coefficients.
+1. Use a loop, map, or apply function to run that iteration function *many* times. You've got lots of options here (`for`, `lapply`, `map`, etc.). You might want to check out the [`map` functions from the `purrr` package](https://purrr.tidyverse.org/reference/map.html) from the `tidyverse`.
+1. After the loop, combine the results into a single data frame (*e.g.*, using `bind_rows()` from the `dplyr` package).
+
+Here's a start...
+
+```{r}
+#| eval: false
+
+# Set the number of iterations
+n_iter = 1e4
+# Set the seed
+set.seed(12)
+# Define the iteration function
+iter_fun = function(it) {
+  # TODO Your iteration magic here...
+}
+# Run the simulation n_iter times
+sim_list = map(1:n_iter, iter_fun)
+# TODO Combine the results into a single data.frame
+```
+
+
+
+Now run the simulation with at least 1,000 iterations.
+
+**2.3** (10 points) Summarize the results of the simulation with (1) a numerical summary (the mean coefficient estimate for each of the four parameters) and (2) a histogram or density plot of the coefficient estimates (separated by parameter).
+
+*Hint:* `ggplot2` is probably a good idea here. You can use `geom_histogram()` or `geom_density()` to plot the distributions of the coefficient estimates.
+
+**2.4** (5 points) Now that you have the results of the simulation, compare them to the true values of the parameters.How well OLS working for each of the parameters?
+
+**2.5** (10 points) Why is OLS biased for $\beta_3$? Explain the intuition *and* with simple math. Bonus if you can show it with a graph too.
