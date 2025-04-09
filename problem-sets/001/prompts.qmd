@@ -16,6 +16,8 @@ format:
     - ed.scss
 ---
 
+Due Monday, 14 April 2025 by 11:59p Pacific.
+
 ## Part 0: Take a minute
 
 **0.1** (5 points) Take 15 minutes to think about (1) your research interests and (2) how you are doing. No screens. No paper. No nothing. Just sit somewhere (ideally not PLC) quietly and think.
