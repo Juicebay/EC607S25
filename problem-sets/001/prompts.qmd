@@ -149,8 +149,6 @@ sim_list = map(1:n_iter, iter_fun)
 # TODO Combine the results into a single data.frame
 ```
 
-
-
 Now run the simulation with at least 1,000 iterations.
 
 **2.3** (10 points) Summarize the results of the simulation with (1) a numerical summary (the mean coefficient estimate for each of the four parameters) and (2) a histogram or density plot of the coefficient estimates (separated by parameter).
@@ -160,3 +158,5 @@ Now run the simulation with at least 1,000 iterations.
 **2.4** (5 points) Now that you have the results of the simulation, compare them to the true values of the parameters.How well OLS working for each of the parameters?
 
 **2.5** (10 points) Why is OLS biased for $\beta_3$? Explain the intuition *and* with simple math. Bonus if you can show it with a graph too.
+
+**2.6** (5 points) How biased is OLS for $\beta_3$? Answer *with math* (not with the data from the simulation). I'm fine with you using expectations or probability limits. Invoke assumptions if you need them; just make sure you are clear about the assumptions you make.
