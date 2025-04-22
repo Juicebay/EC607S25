@@ -45,4 +45,4 @@ Here are a few ideas for topics to get you started. You can certainly go beyond 
 
 | Topic | Person |
 |-------|--------|
-| ... | ... |
+| High-frequency identification methods for monetary policy shocks | Sonan Memon |

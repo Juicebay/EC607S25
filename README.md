@@ -90,28 +90,28 @@ That said, if you're starting out now, I'd go with [Quarto](https://quarto.org).
 
  **Readings:** MHE chapter 3.1
 
-**[Lecture 04: Inference and Simulation](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec04/notes.html)**
+**[Lecture 04: Inference and Simulation](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec04/notes.html)**
 
 1. How do we move from populations to samples?
 2. What matters for drawing basic statistical inferences about the population?
 3. How can we learn about inference from simulation?
 4. How do we run (parallelized) simulations in R?
 
-**Note formats:** [.html](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec04/notes.html) |
-[.pdf](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec04/notes.pdf) |
-[.rmd](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec04/notes.rmd)
+**Note formats:** [.html](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec04/notes.html) |
+[.pdf](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec04/notes.pdf) |
+[.rmd](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec04/notes.rmd)
 
  **Readings:** MHE chapter 3
 
-**[Lecture 05: Regression Stuff](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec05/notes.html)**
+**[Lecture 05: Regression Stuff](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec05/notes.html)**
 
 1. Saturated models
 1. When is regression causal?
 1. The conditional-independence assumption
 
-**Note formats:** [.html](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec05/notes.html) |
-[.pdf](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec05/notes.pdf) |
-[.rmd](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec05/notes.rmd)
+**Note formats:** [.html](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec05/notes.html) |
+[.pdf](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec05/notes.pdf) |
+[.rmd](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec05/notes.rmd)
 
  **Readings:** Still MHE chapter 3
 
@@ -312,7 +312,7 @@ Building a research project/proposal.
 
 More information [here](project1/step1.md)
 
-**Due:** TBD
+**Due:** 09 May 2025 (Canvas)
 
 #### Step 2: Full project proposal
 

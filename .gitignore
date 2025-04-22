@@ -13,7 +13,7 @@
 notes/*/slides_cache/*
 
 # Temporary holds: Notes
-notes-lecture/lec0[4-9]*
+notes-lecture/lec0[6-9]*
 notes-lecture/lec1[0-9]*
 
 # Temporary holds: Problem sets
