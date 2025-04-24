@@ -649,7 +649,7 @@ $=\mathop{E}\left[ f_i(\color{#e64173}{12}) - f_i(\color{#e64173}{11}) \right]$�
 
 --
 
-2. The interpretation changes slightly—without iterating expectations, we have .hi[conditional average treatment effects].
+2. The interpretation changes slightly—without iterating expectations, we have .hi[conditional average treatment effects] (.hi[CATEs]).
 
 --
 
@@ -1019,10 +1019,3 @@ layout: false
 
 ]
 ]
-
----
-exclude: true
-
-```{r, generate pdfs, include = F, eval = F}
-pagedown::chrome_print("05-regression-stuff.html", output = "05-regression-stuff.pdf")
-```
