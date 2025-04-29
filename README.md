@@ -288,7 +288,7 @@ Problem sets combining econometric theory and R.
 
 [Problem set 001](https://raw.githack.com/edrubin/EC607S25/master/problem-sets/001/prompts.html) due Monday, 14 April 2025 by 11:59p Pacific.
 <br>
-[↳*Solutions*](https://raw.githack.com/edrubin/EC607S25/master/problem-sets/001/solutions.html)
+↳ [*Solutions*](https://raw.githack.com/edrubin/EC607S25/master/problem-sets/001/solutions.html)
 
 ## Project
 
