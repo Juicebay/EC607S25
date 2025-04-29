@@ -38,6 +38,19 @@
   color: #e64173 !important;
 }
 
+.mono {
+  font-family: monospace;
+}
+
+.answer {
+  background: #fafafa;
+  padding: 1em;
+  margin: .5em;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #f2f2f2;
+}
+
 // Custom color for line numbers in code blocks
 pre.numberSource code > span > a:first-child::before {
   color: #ccc !important;
