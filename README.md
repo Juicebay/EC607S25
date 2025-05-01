@@ -115,27 +115,27 @@ That said, if you're starting out now, I'd go with [Quarto](https://quarto.org).
 
  **Readings:** Still MHE chapter 3
 
-**[Lecture 06: Controls](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec06/notes.html)**
+**[Lecture 06: Controls](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec06/notes.html)**
 
 1. Omitted-variable bias
 1. Good and bad controls
 
-**Note formats:** [.html](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec06/notes.html) |
-[.pdf](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec06/notes.pdf) |
-[.rmd](https://raw.githack.com/edrubin/ec607s24/master/notes-lecture/lec06/notes.rmd)
+**Note formats:** [.html](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec06/notes.html) |
+[.pdf](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec06/notes.pdf) |
+[.rmd](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec06/notes.rmd)
 
  **Readings:** Still MHE chapter 3
 
-**[Lecture 07: DAGs](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec07/notes.html)**
+**[Lecture 07: DAGs](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec07/notes.html)**
 
 1. Defining graphs 
 1. Underlying theory for DAGs
 1. Building blocks
 1. Examples
 
- **Note formats:** [.html](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec07/notes.html) |
-[.pdf](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/07-dags/07-dags.pdf) |
- [.rmd](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/07-dags/07-dags.rmd)
+ **Note formats:** [.html](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec07/notes.html) |
+[.pdf](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/07-dags/07-dags.pdf) |
+ [.rmd](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/07-dags/07-dags.rmd)
 <br>**Readings:** Brady Neal's book, chapters 1–3 (especially 2–3)
 
 *Extras:* [dagitty](http://dagitty.net) and [ggdag](https://ggdag.malco.io/index.html)
