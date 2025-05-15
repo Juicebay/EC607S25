@@ -72,7 +72,7 @@
   color: #7CAE96 !important;
 }
 .grey {
-  color: #cccccc !important;
+  color: #8AA19E !important;
 }
 .blue {
   color: #3b3b9a !important;
@@ -141,13 +141,6 @@
   clear:left;
 }
 
-.clear .remark-slide-number {
-  display: none;
-}
-.inverse .remark-slide-number {
-  display: none;
-}
-
 .remark-code-line-highlighted {
   background-color: rgba(249, 39, 114, 0.5);
 }
@@ -157,9 +150,6 @@
 }
 .huge{
   font-size: 150%;
-}
-.enormous{
-  font-size: 400%;
 }
 
 .small {
@@ -321,54 +311,19 @@
   width: 5%;
 }
 
-.left5 {
-  padding-top: 0.7em;
-  margin-left: 0em;
-  margin-right: -0.4em;
-  float: left;
-  width: 7%;
-}
-.left10 {
-  padding-top: 0.7em;
-  margin-left: -0.2em;
-  margin-right: -0.5em;
-  float: left;
-  width: 10%;
-}
-.left30 {
-  padding-top: 0.7em;
-  float: left;
-  width: 30%;
-}
-.right30 {
-  padding-top: 0.7em;
-  float: right;
-  width: 30%;
-}
-
-.thin-left {
-  padding-top: 0.7em;
-  margin-left: -1em;
-  margin-right: -0.5em;
-  float: left;
-  width: 27.5%;
-}
-
 /* Format tables */
 table {
   color: #000000;
   font-size: 16pt;
-  line-height: 125%;
-  border-top: 1px solid #ffffff !important;
-  border-bottom: 1px solid #ffffff !important;
 }
 th, td {
   background-color: #ffffff;
+  /* color: #314f4f; */
 }
 table th {
   font-weight: 400;
+  /* font-style: italic; */
 }
-
 
 /* Extra left padding */
 .pad-left {
@@ -379,12 +334,6 @@ table th {
 .big-left {
   margin-left: 15%;
   margin-bottom: -0.4em;
-}
-
-/* Definition */
-.def {
-  font-weight: 500;
-  font-family: 'Zilla Slab' !important;
 }
 
 /* Attention */
@@ -414,64 +363,11 @@ table th {
 /* Example */
 .ex {
   font-weight: 300;
+  /* color: #314f4f !important; */
+  /* color: #8AA19E !important; */
+  /* color: #bebebe !important; */
   color: #cccccc !important;
-  font-style: italic;
 }
-
-.col-left {
-  float: left;
-  width: 47%;
-  margin-top: -1em;
-}
-.col-right {
-  float: right;
-  width: 47%;
-  margin-top: -1em;
-}
-
-.clear-up {
-  clear: both;
-  margin-top: -1em;
-}
-
-
-.col-left {
-  float: left;
-  width: 47%;
-  margin-top: -1em;
-}
-.col-right {
-  float: right;
-  width: 47%;
-  margin-top: -1em;
-}
-
-.left20 {
-  float: left;
-  width: 20%;
-  margin-top: -1em;
-}
-.left25 {
-  float: left;
-  width: 25%;
-  margin-top: -1em;
-}
-.left30 {
-  float: left;
-  width: 30%;
-  margin-top: -1em;
-}
-
-.shift-up {
-  margin-top: -1em;
-}
-.pull-up {
-  margin-bottom: -1em;
-}
-
-.math-left-align .mjx-chtml.MJXc-display{
-    text-align: left !important;
- }
 
 /* Remove orange line */
 hr, .title-slide h2::after, .mline h1::after {

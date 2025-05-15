@@ -4,7 +4,7 @@
     <title>DAGs</title>
     <meta charset="utf-8" />
     <meta name="author" content="Edward Rubin" />
-    <script src="notes_files/header-attrs-2.28/header-attrs.js"></script>
+    <script src="notes_files/header-attrs-2.29/header-attrs.js"></script>
     <link href="notes_files/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="notes_files/remark-css-0.0.1/metropolis.css" rel="stylesheet" />
     <link href="notes_files/remark-css-0.0.1/metropolis-fonts.css" rel="stylesheet" />
@@ -489,7 +489,7 @@ $$
  `\(\text{A}\)` "is a cause of" `\(\text{B}\)`: there is clear (causal) dependence..super.pink[†]
 
 .footnote[
-.pink[†] I'm not a huge fan of the "is a cause of" wording, but it appears to be (unfortunately) common in this literature. IMO, $``\text{A}$ causes (or affects) `\(\text{B"}\)` would be clearer (and more grammatical), but no one asked me. One argument for "a cause of" (vs. "causes") is it emphasizes that events often have multiple causes.]
+.pink[†] I'm not a huge fan of the "is a cause of" wording, but it appears to be (unfortunately) common in this literature. IMO, `\(\text{A}\)` causes (or affects) `\(\text{B}\)` would be clearer (and more grammatical), but no one asked me. One argument for "a cause of" (vs. "causes") is it emphasizes that events often have multiple causes.]
 
 --
 
@@ -620,7 +620,7 @@ This chain of association follows the path `\(\text{A}\leftarrow \text{B} \right
 
 .b.purple[Intuition:] 
 --
- `\(\text{B}\)` induces changes in `\(\text{A}\)` and `\(\text{B}\)`. An observer will see `\(\text{A}\)` change when `\(\text{C}\)` also changes—they are associated due to their common cause.
+ `\(\text{B}\)` induces changes in `\(\text{A}\)` and `\(\text{C}\)`. An observer will see `\(\text{A}\)` change when `\(\text{C}\)` also changes—they are associated due to their common cause.
 
 ---
 .note[Building block 4:] .b.slate[Forks]
@@ -962,7 +962,7 @@ Finally, we'll define whether nodes are .note[separated] or .note[connected] in 
 
 --
 
-Notation for d-separation: `\(\color{#6A5ACD}{\text{X} \ci_{G} \text{Y} \vert \text{Z}}\)`
+Notation for d-separation (in graph `\(G\)`): `\(\color{#6A5ACD}{\text{X} \ci_{G} \text{Y} \vert \text{Z}}\)`
 
 --
 
@@ -984,6 +984,10 @@ To measure the .pink[causal effect] of `\(\text{X}\)` on `\(\text{Y}\)`:
 Putting these ideas together, here is our .def.orange[criterion to isolate causal effects]:
 &gt; If we remove all edges flowing .b[out] of `\(\text{X}\)` (its .pink[causal effects]),
 &lt;br&gt;then `\(\text{X}\)` and `\(\text{Y}\)` should be .purple[d-separated].
+
+--
+
+`\(\longrightarrow\)` {.purple[d-separation] .it[and] .pink[association]} .it[implies] .orange[causation].
 
 --
 
@@ -1189,9 +1193,9 @@ exclude: false
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
-"highlightStyle": "github",
-"highlightLines": true,
-"countIncrementalSlides": false
+  "highlightStyle": "github",
+  "highlightLines": true,
+  "countIncrementalSlides": false
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));

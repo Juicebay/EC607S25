@@ -21,7 +21,7 @@ p_load(
   broom, tidyverse,
   ggplot2, ggthemes, ggforce, ggridges, ggdag, dagitty, cowplot, patchwork, scales,
   latex2exp, viridis, extrafont, grid, gridExtra, plotly, ggformula,
-  kableExtra, DT, 
+  kableExtra, DT,
   data.table, dplyr, snakecase, janitor,
   lubridate, knitr, future, furrr, parallel,
   MASS, estimatr, FNN, parsnip, caret, glmnet,
@@ -46,8 +46,8 @@ opts_chunk$set(
   fig.align = "center",
   fig.height = 7,
   fig.width = 10.5,
-  warning = F,
-  message = F
+  warning = FALSE,
+  message = FALSE
 )
 opts_chunk$set(dev = "svg")
 options(device = function(file, width, height) {
@@ -1099,7 +1099,7 @@ coord_cartesian(
  $\text{A}$ "is a cause of" $\text{B}$: there is clear (causal) dependence..super.pink[†]
 
 .footnote[
-.pink[†] I'm not a huge fan of the "is a cause of" wording, but it appears to be (unfortunately) common in this literature. IMO, $``\text{A}$ causes (or affects) $\text{B"}$ would be clearer (and more grammatical), but no one asked me. One argument for "a cause of" (vs. "causes") is it emphasizes that events often have multiple causes.]
+.pink[†] I'm not a huge fan of the "is a cause of" wording, but it appears to be (unfortunately) common in this literature. IMO, $\text{A}$ causes (or affects) $\text{B}$ would be clearer (and more grammatical), but no one asked me. One argument for "a cause of" (vs. "causes") is it emphasizes that events often have multiple causes.]
 
 --
 
@@ -1509,7 +1509,7 @@ This chain of association follows the path $\text{A}\leftarrow \text{B} \rightar
 
 .b.purple[Intuition:] 
 --
- $\text{B}$ induces changes in $\text{A}$ and $\text{B}$. An observer will see $\text{A}$ change when $\text{C}$ also changes—they are associated due to their common cause.
+ $\text{B}$ induces changes in $\text{A}$ and $\text{C}$. An observer will see $\text{A}$ change when $\text{C}$ also changes—they are associated due to their common cause.
 
 ---
 .note[Building block 4:] .b.slate[Forks]
@@ -1643,14 +1643,14 @@ This chain of association follows the path $\text{A}\leftarrow \text{B} \rightar
 ---
 .note[Building block 4:] .b.slate[Blocked forks]
 
-```{r, bb4-plot-4, echo = F, fig.height = 2.5, fig.width = 5}
+```{r, bb4-plot-4, echo = FALSE, fig.height = 2.5, fig.width = 5}
 # Plot the DAG
 gg_fork_block = ggplot(
   data = bb4_dt,
   aes(x = x, y = y)
 ) +
 geom_line(
-  data = fork_curve[1:floor(.N/2)],
+  data = fork_curve[1:floor(.N / 2)],
   color = "grey80",
   linetype = "dashed",
   size = 0.8
@@ -1680,7 +1680,7 @@ geom_text(
   aes(x = x, y = y, label = name),
   family = "Fira Sans Medium",
   size = 8,
-  color = c("white", "white", purple, purple),
+  color = c(purple, "white", "white", purple),
   fontface = "bold"
 ) +
 theme_void() +
@@ -1959,7 +1959,7 @@ geom_text(
   aes(x = x, y = y, label = name),
   family = "Fira Sans Medium",
   size = 8,
-  color = c(purple, purple, "white"),
+  color = c(purple, "white", purple),
   fontface = "bold"
 ) +
 theme_void() +
@@ -2010,7 +2010,7 @@ geom_text(
   aes(x = x, y = y, label = name),
   family = "Fira Sans Medium",
   size = 8,
-  color = c(purple, purple, "white"),
+  color = c(purple, "white", purple),
   fontface = "bold"
 ) +
 theme_void() +
@@ -2099,7 +2099,7 @@ geom_text(
   aes(x = x, y = y, label = name),
   family = "Fira Sans Medium",
   size = 8,
-  color = c(purple, purple, "white"),
+  color = c(purple, "white", purple),
   fontface = "bold"
 ) +
 theme_void() +
@@ -2348,7 +2348,7 @@ geom_text(
   aes(x = x, y = y, label = name),
   family = "Fira Sans Medium",
   size = 8,
-  color = c(purple, purple, "white"),
+  color = c(purple, "white", purple),
   fontface = "bold"
 ) +
 theme_void() +
@@ -2539,7 +2539,7 @@ Finally, we'll define whether nodes are .note[separated] or .note[connected] in 
 
 --
 
-Notation for d-separation: $\color{#6A5ACD}{\text{X} \ci_{G} \text{Y} \vert \text{Z}}$
+Notation for d-separation (in graph $G$): $\color{#6A5ACD}{\text{X} \ci_{G} \text{Y} \vert \text{Z}}$
 
 --
 
@@ -2561,6 +2561,10 @@ To measure the .pink[causal effect] of $\text{X}$ on $\text{Y}$:
 Putting these ideas together, here is our .def.orange[criterion to isolate causal effects]:
 > If we remove all edges flowing .b[out] of $\text{X}$ (its .pink[causal effects]),
 <br>then $\text{X}$ and $\text{Y}$ should be .purple[d-separated].
+
+--
+
+$\longrightarrow$ {.purple[d-separation] .it[and] .pink[association]} .it[implies] .orange[causation].
 
 --
 
