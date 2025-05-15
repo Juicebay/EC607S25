@@ -134,8 +134,8 @@ That said, if you're starting out now, I'd go with [Quarto](https://quarto.org).
 1. Examples
 
  **Note formats:** [.html](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec07/notes.html) |
-[.pdf](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/07-dags/07-dags.pdf) |
- [.rmd](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/07-dags/07-dags.rmd)
+[.pdf](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/07-dags/notes.pdf) |
+ [.rmd](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/07-dags/notes.rmd)
 <br>**Readings:** Brady Neal's book, chapters 1–3 (especially 2–3)
 
 *Extras:* [dagitty](http://dagitty.net) and [ggdag](https://ggdag.malco.io/index.html)
