@@ -45,4 +45,7 @@ Here are a few ideas for topics to get you started. You can certainly go beyond 
 
 | Topic | Person |
 |-------|--------|
+| Fixed and random effects estimators | Leslie Wooten |
+| Staggered difference-in-differences | Shaoda Wang |
+| Synthetic difference-in-differences | Jules Netze |
 | High-frequency identification methods for monetary policy shocks | Sonan Memon |
