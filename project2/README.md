@@ -52,5 +52,6 @@ Here are a few ideas for topics to get you started. You can certainly go beyond 
 | Synthetic difference-in-differences | Jules Netze |
 | Triple differences | David Conover |
 | Event studies | Pilar Mullican |
+| Case-crossover designs | Jon Knudson |
 | High-frequency identification methods for monetary policy shocks | Sonan Memon |
 | Structural VAR | Herbert Xin |
