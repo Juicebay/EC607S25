@@ -150,18 +150,18 @@ That said, if you're starting out now, I'd go with [Quarto](https://quarto.org).
  [.rmd](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec08/notes.rmd)
 <br>**Readings:** MHE chapter 3 + C&T section 25.4
 
-*Bonus:* [Slides outlining logistic regression](https://raw.githack.com/edrubin/EC524S24/master/lecture/006/slides.html#31).
+*Bonus:* [Slides outlining logistic regression](https://raw.githack.com/edrubin/EC524S25/master/lecture/006/slides.html#31).
 
-**[Lecture 09: Instrumental Variables](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec09/notes.html)**
+**[Lecture 09: Instrumental Variables](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec09/notes.html)**
 
 1. General research designs
 1. Instrumental variables (IV)
 1. Two-stage least squares (2SLS)
 1. Heterogeneous treatment effects and the LATE
 
- **Note formats:** [.html](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec09/notes.html) | 
-[.pdf](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec09/notes.pdf) |
- [.rmd](https://raw.githack.com/edrubin/EC607S24/master/notes-lecture/lec09/notes.rmd)
+ **Note formats:** [.html](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec09/notes.html) | 
+[.pdf](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec09/notes.pdf) |
+ [.rmd](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec09/notes.rmd)
 <br>**Readings:** MHE chapter 4 + C&T sections 4.8–4.9
 <br>**Additional material:** [Paper on machine learning the first stage of 2SLS](https://edrub.in/Papers/draft-mliv.pdf)
 

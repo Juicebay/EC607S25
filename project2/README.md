@@ -45,7 +45,12 @@ Here are a few ideas for topics to get you started. You can certainly go beyond 
 
 | Topic | Person |
 |-------|--------|
+| Dynamics and spillovers | Cindy Yuan |
+| Variable-Elimination as an Exact Inference Approach in Probabilistic Graphical Modeling (DAGS/Bayesian Networks) | Chris Antwi |
 | Fixed and random effects estimators | Leslie Wooten |
 | Staggered difference-in-differences | Shaoda Wang |
 | Synthetic difference-in-differences | Jules Netze |
+| Triple differences | David Conover |
+| Event studies | Pilar Mullican |
 | High-frequency identification methods for monetary policy shocks | Sonan Memon |
+| Structural VAR | Herbert Xin |
