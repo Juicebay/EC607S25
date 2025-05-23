@@ -1,6 +1,6 @@
 # Problem set 3
 
-Due Monday, 26 May (2025) by 11:59 PM.
+Due Tuesday, 27 May (2025) by 11:59 PM.
 
 CIA, DAGs, and Matching
 
