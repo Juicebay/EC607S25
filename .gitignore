@@ -14,6 +14,7 @@ notes/*/slides_cache/*
 
 # Temporary holds: Notes
 notes-lecture/lec1[0-9]*
+problem-sets/003/key*
 
 # Temporary holds: Problem sets
 final/final-class*
