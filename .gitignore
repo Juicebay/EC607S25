@@ -11,6 +11,7 @@
 *.Rproj
 # Notes cache
 notes/*/slides_cache/*
+problem-sets/*/solutions_cache*
 
 # Temporary holds: Notes
 notes-lecture/lec1[0-9]*
