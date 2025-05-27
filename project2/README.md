@@ -45,6 +45,7 @@ Here are a few ideas for topics to get you started. You can certainly go beyond 
 
 | Topic | Person |
 |-------|--------|
+| Decompositions (e.g., Kitagawa/Blinder-Oaxaca) | Sanjay Roy |
 | Dynamics and spillovers | Cindy Yuan |
 | Variable-Elimination as an Exact Inference Approach in Probabilistic Graphical Modeling (DAGS/Bayesian Networks) | Chris Antwi |
 | Fixed and random effects estimators | Leslie Wooten |
