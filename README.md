@@ -165,15 +165,15 @@ That said, if you're starting out now, I'd go with [Quarto](https://quarto.org).
 <br>**Readings:** MHE chapter 4 + C&T sections 4.8–4.9
 <br>**Additional material:** [Paper on machine learning the first stage of 2SLS](https://edrub.in/Papers/draft-mliv.pdf)
 
-**[Lecture 10: Regression Discontinuity](https://raw.githack.com/edrubin/EC607S23/master/notes-lecture/10-rd/10-rd.html)**
+**[Lecture 10: Regression Discontinuity](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec10/notes.html)**
 
 1. Sharp regression discontinuities
 1. Fuzzy regression discontinuities
 1. Graphical analyses
 
- **Note formats:** [.html](https://raw.githack.com/edrubin/EC607S23/master/notes-lecture/10-rd/10-rd.html) |
-[.pdf](https://raw.githack.com/edrubin/EC607S23/master/notes-lecture/10-rd/10-rd.pdf) |
- [.Rmd](https://raw.githack.com/edrubin/EC607S23/master/notes-lecture/10-rd/10-rd.Rmd)
+ **Note formats:** [.html](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec10/notes.html) |
+[.pdf](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec10/notes.pdf) |
+ [.Rmd](https://raw.githack.com/edrubin/EC607S25/master/notes-lecture/lec10/notes.Rmd)
 <br>**Readings:** MHE chapter 6 + C&T sections 25.6
 
 **[Lecture 11: Inference: Clustering](https://raw.githack.com/edrubin/EC607S23/master/notes-lecture/11-clustering/11-clustering.html)**
@@ -335,7 +335,7 @@ More information [here](project1/step1.md)
 
 More information [here](project1/step2.md).
 
-**Due:** TBD
+**Due:** 01 June 2025 (Canvas)
 
 ### Project 2: Extensions
 

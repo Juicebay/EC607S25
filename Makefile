@@ -14,6 +14,7 @@ lec06 : $(dir-lec)lec06/notes.html $(dir-lec)lec06/notes.pdf
 lec07 : $(dir-lec)lec07/notes.html $(dir-lec)lec07/notes.pdf
 lec08 : $(dir-lec)lec08/notes.html $(dir-lec)lec08/notes.pdf
 lec09 : $(dir-lec)lec09/notes.html $(dir-lec)lec09/notes.pdf
+lec10 : $(dir-lec)lec10/notes.html $(dir-lec)lec10/notes.pdf
 
 # Define individual links ------------------------------------------------------
 # Lecture 01
@@ -60,6 +61,11 @@ $(dir-lec)lec08/notes.pdf : $(dir-lec)lec08/notes.html
 $(dir-lec)lec09/notes.html : $(dir-lec)lec09/notes.rmd $(dir-lec)lec09/my-css.css
 	Rscript -e "rmarkdown::render('$<')"
 $(dir-lec)lec09/notes.pdf : $(dir-lec)lec09/notes.html
+	Rscript -e "pagedown::chrome_print('$<')"
+# Lecture 10
+$(dir-lec)lec10/notes.html : $(dir-lec)lec10/notes.rmd $(dir-lec)lec10/my-css.css
+	Rscript -e "rmarkdown::render('$<')"
+$(dir-lec)lec10/notes.pdf : $(dir-lec)lec10/notes.html
 	Rscript -e "pagedown::chrome_print('$<')"
 
 # Global targets ---------------------------------------------------------------
