@@ -56,3 +56,5 @@ Here are a few ideas for topics to get you started. You can certainly go beyond 
 | Case-crossover designs | Jon Knudson |
 | High-frequency identification methods for monetary policy shocks | Sonan Memon |
 | Structural VAR | Herbert Xin |
+| Spatially clustered standard errors | Haoyu Xu |
+| Wild clustered bootstrap | Kehan Zhang |
