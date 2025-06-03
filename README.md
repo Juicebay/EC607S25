@@ -343,11 +343,11 @@ More information [here](project1/step2.md).
 
 - Choose a topic related to causal inference–that we do not cover in class (*e.g.*, difference-in-differences, the Wild Clustered Bootstrap, synthetic control methods).
 - Write a summary/tutorial of the topic that includes (a) the math behind the approach and (b) an empirical example.
-- Present a five-minute summary of the topics to your classmates.
+- Write a five-minute summary presentation of the topics for your classmates.
 
 *Why?* In the course of the PhD, we want to teach you how to learn. We will not provide you with everything you need to know to be able to do research on any topic. But hopefully we provide you with a foundation and the ability to learn new things. Also: You need to learn how to communicate both in writing and in person. 
 
-**Due:** All material (including slides) is due June 4, 2025. Presentations will be during class on June 5, 2025.
+**Due:** All material (including slides) is due June 5, 2025.
 
 [See here for more information and example topics.](project2)
 

@@ -4,9 +4,9 @@
 
 - Choose a topic related to causal inference–that we do not cover in class.
 - Write a summary/tutorial (think: wiki or blog) of the topic that includes (a) the math behind the approach and (b) an empirical example (with data, code, visualizations, and/or tables).
-- Present a **five-minute** summary of the topics to your classmates. Practice to make sure you only have five minutes.
+- Write a **five-minute** (five-slide) presentation that summarizes the topic to your classmates.
 
-**Due:** All materials (including slides) are due by the end of the day on June 5, 2024. Presentations will be during lab on June 6, 2025.
+**Due:** All materials (including slides) are due by the end of the day on June 5, 2024.
 
 ## Why?
 
