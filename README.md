@@ -364,7 +364,7 @@ More information [here](project1/step2.md).
 The final exam has two parts:
 
 - In class: 8:00a–10:00a on Wednesday, June 11th (2025).
-- Take-home exam: Responses due by 11:59p Pacific on Friday, June 13th, 2025.
+- [Take-home exam](https://raw.githack.com/edrubin/EC607S25/master/final/final-home/final-home.html): Responses due by 11:59p Pacific on Friday, June 13th, 2025.
 
 We do not have a midterm exam.
 
